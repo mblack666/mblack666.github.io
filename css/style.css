@@ -1,0 +1,29 @@
+/* @import url('reset.css'); */
+
+.main-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-container--header {
+  font-size: 20px;
+}
+
+.main-container--link {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #0cf;
+  border: 1px solid #0cf;
+  border-radius: 10px;
+}
+
+.main-container--link a {
+  display: block;
+  margin: 6px 0;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
