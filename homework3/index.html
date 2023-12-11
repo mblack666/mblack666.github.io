@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board</title>
+    <meta name="description" content="Board">
+    <meta name="keywords" content="bulletin board, auto, sell, car, rent, buy, trade">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="https://fom.in.ua/echo" method="post">
+        <div>
+          <h2>Register</h2>
+        </div>
+        <div>
+          <label for="email">email*</label>
+          <input type="email" name="email" id="email" placeholder="Input email" required>
+        </div>
+        <div>
+          <label for="password">password*</label>
+          <input type="password" name="password" id="password" placeholder="Input password" required>
+        </div>
+        <div>
+          <label for="age">Age*</label>
+          <input type="number" name="age" id="age" min="18" max="60" required>
+        </div>
+        <div>
+          <label for="remember">Remember me</label>
+          <input type="checkbox" name="remember" id="remember" value="yes">
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Register</button>
+        <div>
+          <span>* Required field</span>
+        </div>
+      </form>
+    </div>
+    <div class="form-container">
+      <form action="https://fom.in.ua/echo" method="post">
+        <div>
+          <h2>Post Advertisement</h2>
+        </div>
+        <div>
+          <label for="title">Title*</label>
+          <input type="text" name="title" id="title" placeholder="Input title" required>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Gear box</legend>
+            <label for="automatic">Automatic</label>
+            <input type="radio" name="transmission" id="automatic" value="automatic" checked>
+            <label for="manual">Manual</label>
+            <input type="radio" name="transmission" id="manual" value="manual">
+          </fieldset>
+        </div>
+        <div>
+          <label for="kilometrage">Kilometrage*</label>
+          <input type="number" name="kilometrage" id="kilometrage"  min="0" max="1999999" required>
+        </div>
+        <div>
+          <fieldset>
+            <legend>State</legend>
+            <label for="broken">Broken</label>
+            <input type="checkbox" name="state" id="broken" value="broken">
+            <label for="on_credit">On credit</label>
+            <input type="checkbox" name="state" id="on_credit" value="on_credit">
+            <label for="new_car">New car</label>
+            <input type="checkbox" name="state" id="new_car" value="new_car">
+            <label for="hijacked">Hijacked</label>
+            <input type="checkbox" name="state" id="hijacked" value="hijacked">
+          </fieldset>
+        </div>
+        <div>
+          <label for="year">Year</label>
+          <input type="date" name="year" id="year" value="2023-01-01" min="1950-01-01" max="2023-12-31">
+        </div>
+        <div>
+          <label for="color">Color</label>
+          <input type="color" name="color" id="color">
+        </div>
+        <div>
+          <label for="fuel">Fuel</label>
+          <select name="fuel" id="fuel">
+            <option value="gasoline">Gasoline</option>
+            <option value="diesel">Diesel</option>
+            <option value="lpg">LPG</option>
+            <option value="lpg_gasoline">Gasoline/LPG</option>
+          </select>
+        </div>
+        <div>
+          <label for="comment">Comment</label>
+          <textarea name="comment" id="comment" cols="25" rows="5" placeholder="Enter comment"></textarea>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <div>
+          <span>* Required field</span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

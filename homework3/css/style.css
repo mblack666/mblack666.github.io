@@ -1,0 +1,10 @@
+input {
+  margin: 5px 0;
+}
+
+.form-container {
+  margin: 10px 0;
+  border: 1px solid #0000ff;
+  width: 200px;
+  padding: 5px 50px;
+}
