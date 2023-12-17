@@ -1,0 +1,48 @@
+.nav-link {
+  color: #00ff00;
+  font-size: 20px;
+}
+
+.nav-contact {
+  text-transform: uppercase;
+}
+
+.movie-title {
+  color: #ff0000;
+  text-align: center;
+  font-size: 20px;
+}
+
+.movie-image {
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+}
+
+.movie-rating {
+  color: #00ff00;
+  font-size: 18px;
+}
+
+.contacts-title {
+  color: #00ff00;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.contacts-address {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contacts-address__phone a {
+  color: #00ff00;
+}
+
+.contacts-address__email a {
+  color: #ffc0cb;
+}
+
+.performer {
+  font-size: 40px;
+}
