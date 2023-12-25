@@ -1,0 +1,68 @@
+@import url('fonts.css');
+
+html {
+  font-family: "Lora", "Arial", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-link {
+  color: #00ff00;
+  font-size: 20px;
+}
+
+.nav-contact {
+  text-transform: uppercase;
+}
+
+.movie-title {
+  font-family: 'Montserrat', "Arial", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff0000;
+  text-align: center;
+  font-size: 20px;
+}
+
+.movie-image {
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+}
+
+.movie-rating {
+  color: #00ff00;
+  font-size: 18px;
+}
+
+.contacts-title {
+  color: #00ff00;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.contacts-address {
+  font-size: 20px;
+}
+
+.contacts-address__link {
+  text-decoration: none;
+}
+
+.contacts-address__phone a {
+  color: #00ff00;
+}
+
+.contacts-address__email a {
+  color: #ffc0cb;
+}
+
+.performer {
+  font-size: 40px;
+}
+
+a[href] {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

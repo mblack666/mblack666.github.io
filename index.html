@@ -7,23 +7,60 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="main-container">
-    <h1 class="main-container--header">Homeworks</h1>
-    <p class="main-container--link">
-      <a href="homework1/index.html">Homework 1</a>
-    </p>
-    <p class="main-container--link">
-      <a href="homework2/index.html">Homework 2</a>
-    </p>
-    <p class="main-container--link">
-      <a href="homework3/index.html">Homework 3</a>
-    </p>
-    <p class="main-container--link">
-      <a href="homework4/index.html">Homework 4</a>
-    </p>
-    <p class="main-container--link">
-      <a href="homework5/index.html">Homework 5</a>
-    </p>
-  </div>
+  <main class="main">
+    <div class="main-practice">
+      <h2 class="main-title">
+        Homeworks
+      </h2>
+      <div class="main-wrapper">
+        <div class="main-card">
+          <a href="homework1/index.html">Homework 1</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="95">95</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework2/index.html">Homework 2</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="95">95</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework3/index.html">Homework 3</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="100">100</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework4/index.html">Homework 4</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="100">100</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework5/index.html">Homework 5</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="99">99</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework6/index.html">Homework 6</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="95">95</span>/100
+          </div>
+        </div>
+        <div class="main-card">
+          <a href="homework7/index.html">Homework 7</a>
+          <div class="main-rating">
+            <span class="main-score" data-score="0">0</span>/100
+          </div>
+        </div>
+      </div>
+      <div class="main-average-score" id="main-average-score">
+        Average score - <span id="main-average-score-value">0</span>/100
+      </div>
+    </div>
+  </main>
+  <script src="./js/main.js"></script>
 </body>
 </html>
