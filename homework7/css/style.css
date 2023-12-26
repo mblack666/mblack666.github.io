@@ -1,6 +1,10 @@
 @import url('normalize.css');
 @import url('fonts.css');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lora", "Times New Roman", serif;
   font-weight: 400;
@@ -16,7 +20,7 @@ body {
 }
 
 .nav a:not(:last-child) {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-link {
@@ -29,7 +33,7 @@ body {
 }
 
 .main-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -38,12 +42,10 @@ body {
 }
 
 .movie {
-  box-sizing: border-box;
   padding: 20px;
   width: 400px;
   display: inline-block;
   font-size: 14px;
-  margin: 0;
 }
 
 .movie-title {
