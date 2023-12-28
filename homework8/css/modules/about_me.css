@@ -1,0 +1,22 @@
+.about-me {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.section-title {
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.section-description {
+  display: inline-block;
+  color: #727272;
+  line-height: 1.64;
+  width: 540px;
+  margin-top: 0;
+  margin-bottom: 0;
+}

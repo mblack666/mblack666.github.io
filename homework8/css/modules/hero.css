@@ -1,0 +1,55 @@
+.hero {
+  padding-top: 80px;
+  padding-bottom: 140px;
+  background-color: #EEEFF1;
+}
+
+.hero-header {
+  margin-bottom: 150px;
+}
+
+.hero-nav__link {
+  color: #000;
+  line-height: 1;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 42px;
+}
+
+.hero-nav__link:last-child {
+  margin-right: 0;
+}
+
+.hero-nav__link-active {
+  color: #34547A;
+  font-weight: 500;
+}
+
+.hero-content__title {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.hero-content__description {
+  color: #727272;
+  line-height: 1.64;
+  margin-bottom: 65px;
+  width: 555px;
+  display: block;
+}
+
+.hero-content__link {
+  color: #FFF;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 41px;
+  background-color: #34547A;
+  display: inline-block;
+}

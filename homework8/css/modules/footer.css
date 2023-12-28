@@ -1,0 +1,21 @@
+.footer {
+  color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #34547A;
+}
+
+.footer-name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+}

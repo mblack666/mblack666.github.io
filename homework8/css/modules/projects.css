@@ -1,0 +1,39 @@
+.projects {
+  background: #34547A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.projects-item {
+  margin-right: 45px;
+  display: inline-block;
+}
+
+.projects-item__image {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.projects-item__description {
+  display: inline-block;
+  text-align: left;
+}
+
+.projects-item__description-value {
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.projects-item__description-title {
+  color: #FFF;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
