@@ -31,12 +31,14 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
+  margin-top: 0;
   margin-bottom: 60px;
 }
 
 .hero-content__description {
   color: #727272;
   line-height: 1.64;
+  margin-top: 0;
   margin-bottom: 65px;
   width: 555px;
   display: block;
