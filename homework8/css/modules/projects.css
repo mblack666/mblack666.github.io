@@ -19,10 +19,12 @@
   height: 50px;
   display: inline-block;
   margin-right: 20px;
+  vertical-align: middle;
 }
 
 .projects-item__description {
   display: inline-block;
+  vertical-align: middle;
   text-align: left;
 }
 
