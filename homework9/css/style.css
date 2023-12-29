@@ -1,0 +1,70 @@
+@import url('./modules/normalize.css');
+@import url('./modules/fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C4C4C4;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #E6E6E6;
+}
+
+.wrapper::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: #FC8F8F;
+  text-align: center;
+  line-height: 200px;
+}
+
+.square span {
+  display: inline;
+  vertical-align: middle;
+}
+
+.small-square {
+  width: 100px;
+  height: 100px;
+  background-color: #FC8F8F;
+}
+
+.small-text {
+  font-size: 36px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
