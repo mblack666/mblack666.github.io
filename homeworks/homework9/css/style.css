@@ -26,6 +26,12 @@ body {
   clear: both;
 }
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .square {
   width: 200px;
   height: 200px;
