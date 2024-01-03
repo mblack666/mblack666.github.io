@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+.va-top {
+  vertical-align: top;
+}

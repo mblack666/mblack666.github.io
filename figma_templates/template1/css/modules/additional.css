@@ -1,0 +1,45 @@
+.additional {
+  background-color: #FFFFFF;
+  font-size: 0;
+}
+
+.additional-wrapper {
+  width: 1192px;
+  margin: 0 auto;
+}
+
+
+.additional__title {
+  margin-top: 99px;
+  margin-bottom: 0;
+  color: #333;
+  font-size: 32px;
+  line-height: 1.12;
+}
+
+.additional-blocks {
+  margin-top: 41px;
+  margin-bottom: 80px;
+  font-size: 0;
+}
+
+.additional-block {
+  width: 280px;
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.additional-block__title {
+  color: #333;
+  font-size: 18px;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.additional-block__description {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+}

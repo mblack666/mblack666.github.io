@@ -1,0 +1,15 @@
+.partners {
+  background-color: #D3D3D3;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.partner {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 66px;
+}
+
+.partner:last-child {
+  margin-right: 0;
+}

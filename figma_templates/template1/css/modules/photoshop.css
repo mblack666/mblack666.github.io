@@ -1,0 +1,85 @@
+.photoshop {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 0;
+}
+
+.photoshop-wrapper {
+  display: inline-block;
+  width: 576px;
+}
+
+.photoshop-first {
+  padding-left: 20px;
+  padding-right: 47px;
+}
+
+.photoshop-first__title {
+  color: #000;
+  font-size: 32px;
+  line-height: 1;
+  margin-top: 69px;
+  margin-bottom: 14px;
+}
+
+.photoshop-first_description {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 97px;
+}
+
+.photoshop-second {
+  text-align: center;
+}
+
+.photoshop-second__image {
+  margin-top: 15px;
+}
+
+.photoshop-second__image_description {
+  color: #777;
+  font-size: 12px;
+  line-height: 1.75;
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
+
+.photoshop-third {
+  text-align: center;
+}
+
+.photoshop-third__image_description {
+  color: #777;
+  font-size: 12px;
+  line-height: 1.75;
+  margin-top: 20px;
+}
+
+.photoshop-fourth {
+  padding-left: 20px;
+  padding-right: 36px;
+}
+.photoshop-fourth__title {
+  color: #000;
+  font-size: 31px;
+  line-height: 1.16;
+  margin-top: 79px;
+}
+
+.photoshop-fourth__description {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.photoshop-fourth__description-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #3B79C3;
+}

@@ -1,0 +1,25 @@
+
+.hero {
+  background-color: #6B6B6B;
+}
+
+.hero-logo {
+  display: inline-block;
+}
+
+.hero-wrapper {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.hero-nav {
+  font-size: 13px;
+}
+
+.hero-nav a {
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 40px;
+}
