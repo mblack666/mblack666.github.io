@@ -3,7 +3,7 @@ function determineRange(number) {
     { start: 0, end: 70, color: '#FF0000' },
     { start: 70, end: 80, color: '#E9967A' },
     { start: 80, end: 90, color: '#9ACD32' },
-    { start: 90, end: 95, color: '#228B22	' },
+    { start: 90, end: 95, color: '#228B22' },
     { start: 95, end: 101, color: '#00FF00' }
   ];
 
@@ -13,7 +13,7 @@ function determineRange(number) {
     }
   }
 
-  return '#191970	';
+  return '#191970';
 }
 
 let scoreElements = document.querySelectorAll('.main-score');
