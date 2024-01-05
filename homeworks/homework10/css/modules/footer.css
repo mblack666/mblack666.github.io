@@ -1,0 +1,71 @@
+.footer {
+  margin-top: 100px;
+  background: #333;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.footer-flex__links {
+  display: flex;
+  align-items: center;
+  column-gap: 47px;
+}
+
+.footer-flex__link {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer-flex__social-links {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.footer-flex__social-link {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-flex__contacts {
+  display: flex;
+  align-items: center;
+}
+
+.footer-flex__contacts-phone {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-flex__contacts-phone::before {
+  content: url('../../images/phone_white.png');
+  margin-right: 9px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-instagram {
+  content: url('../../images/instagram.png');
+  width: 25px;
+  height: 25px;
+}
+
+.social-vk {
+  content: url('../../images/vk.png');
+  width: 25px;
+  height: 25px;
+}

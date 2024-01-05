@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: 'Gilroy', 'Arial', sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 1320px;
+  margin: 0 auto;
+}
