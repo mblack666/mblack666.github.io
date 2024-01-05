@@ -10,33 +10,37 @@
   <body>
     <header class="header">
       <div class="wrapper">
-        <div class="flex-header">
-          <div class="flex-header__up">
+        <div class="flex-header__up">
+          <a class="logo" href="#">
             <img src="./images/logo.png" alt="logo">
-            <div class="flex-header__info">
-              <div class="flex-header__phone">
-                <a class="flex-header__phone-number" href="tel:380996665544">380 99 666 55 44</a>
-              </div>
-              <div class="flex-header__icons">
-                <div class="flex-header__buy">
+          </a>
+          <div class="flex-header__info">
+            <div class="flex-header__phone">
+              <a class="flex-header__phone-number" href="tel:380996665544">380 99 666 55 44</a>
+            </div>
+            <div class="flex-header__icons">
+              <div class="flex-header__buy">
+                <a href="#">
                   <img class="flex-header__buy-icon" src="./images/buy.png" alt="buy">
-                  <span class="flex-header__buy-amount">2</span>
-                </div>
-                <img class="flex-header__account-icon" src="./images/account.png" alt="account">
+                </a>
+                <span class="flex-header__buy-amount">2</span>
               </div>
+              <a href="#">
+                <img class="flex-header__account-icon" src="./images/account.png" alt="account">
+              </a>
             </div>
           </div>
-          <div class="flex-header__down">
-            <nav class="flex-header__nav">
-              <a class="flex-header__nav-link flex-header__nav-link-icon" href="">Catalog</a>
-              <a class="flex-header__nav-link" href="">About</a>
-              <a class="flex-header__nav-link" href="">Birds</a>
-              <a class="flex-header__nav-link" href="">Donate</a>
-            </nav>
-            <div class="flex-header__search">
-              <input class="flex-header__search-input" type="text" name="search" id="search" placeholder="Search">
-              <span class="flex-header__search-icon"></span>
-            </div>
+        </div>
+        <div class="flex-header__down">
+          <nav class="flex-header__nav">
+            <a class="flex-header__nav-link flex-header__nav-link-icon" href="">Catalog</a>
+            <a class="flex-header__nav-link" href="">About</a>
+            <a class="flex-header__nav-link" href="">Birds</a>
+            <a class="flex-header__nav-link" href="">Donate</a>
+          </nav>
+          <div class="flex-header__search">
+            <input class="flex-header__search-input" type="text" name="search" id="search" placeholder="Search">
+            <span class="flex-header__search-icon"></span>
           </div>
         </div>
       </div>
@@ -62,9 +66,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -83,9 +85,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -104,9 +104,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -122,9 +120,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -140,9 +136,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -158,9 +152,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -176,9 +168,7 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
           <div class="container-item">
@@ -194,16 +184,16 @@
             </div>
             <div class="container-item__actions">
               <button class="container-item__action-details">Details</button>
-              <div class="container-item__action-buy-frame">
-                <button class="container-item__action-buy"></button>
-              </div>
+              <button class="container-item__action-buy"></button>
             </div>
           </div>
         </div>
         <div class="container-paginate">
+          <a class="container-paginate__page-prev" href="#"></a>
           <a class="container-paginate__page container-paginate__page-active" href="#">1</a>
           <a class="container-paginate__page" href="#">2</a>
           <a class="container-paginate__page" href="#">3</a>
+          <a class="container-paginate__page-next" href="#"></a>
         </div>
       </div>
     </main>
@@ -214,12 +204,10 @@
             <a class="footer-flex__link" href="">Payment</a>
             <a class="footer-flex__link" href="">Delivery</a>
           </div>
-
           <div class="footer-flex__social-links">
             <a class="footer-flex__social-link social-vk" href=""></a>
             <a class="footer-flex__social-link social-instagram" href=""></a>
           </div>
-
           <div class="footer-flex__contacts">
             <a class="footer-flex__contacts-phone" href="tel:380996665544">380 99 666 55 44</a>
           </div>

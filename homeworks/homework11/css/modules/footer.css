@@ -1,5 +1,4 @@
 .footer {
-  margin-top: 100px;
   background: #333;
 }
 
@@ -56,16 +55,4 @@
   margin-right: 9px;
   display: inline-block;
   vertical-align: middle;
-}
-
-.social-instagram {
-  content: url('../../images/instagram.png');
-  width: 25px;
-  height: 25px;
-}
-
-.social-vk {
-  content: url('../../images/vk.png');
-  width: 25px;
-  height: 25px;
 }

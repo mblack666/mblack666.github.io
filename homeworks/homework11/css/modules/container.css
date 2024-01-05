@@ -1,5 +1,4 @@
 .breadcrumbs {
-  margin-top: 75px;
   display: flex;
   column-gap: 15px;
 }
@@ -148,21 +147,17 @@
   background: #3FCF5E;
 }
 
-.container-item__action-buy-frame {
-  display: inline-block;
-  border-radius: 10px;
-  border: 1px solid #BDBDBD;
+.container-item__action-buy {
+  box-sizing: content-box;
+  border-radius: 10px; 
   background: #FFF;
   padding: 9px;
-}
-
-.container-item__action-buy {
   width: 27px;
   height: 27px;
-  background: url('../../images/buy_2.png');
+  background: url('../../images/buy_icon.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  border: none;
+  background-position: center;
+  background-size: auto;
 }
 
 .container-paginate {
@@ -187,12 +182,10 @@
   font-weight: 700;
 }
 
-.container-paginate__page:first-child::before {
+.container-paginate__page-prev {
   content: url('../../images/prev.png');
-  margin-right: 25px;
 }
 
-.container-paginate__page:last-child::after {
+.container-paginate__page-next {
   content: url('../../images/next.png');
-  margin-left: 25px;
 }
