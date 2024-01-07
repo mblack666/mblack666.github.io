@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  width: 1620px;
+  width: 1820px;
   margin: 0 auto;
 }
 
@@ -19,4 +19,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1920px) {
+  .wrapper {
+    width: 1500px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    width: 1220px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 920px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper {
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    width: 320px;
+  }
 }
