@@ -1,0 +1,294 @@
+.main {
+  background-color: #F0F0F0;
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+
+.main-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper-background {
+  background: lightgray url('../../images/background_1.png') 50% / cover no-repeat;
+}
+
+.main-header {
+  padding-bottom: 28px;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__left-logo {
+  margin-top: 40px;
+}
+
+.main-header__left-text {
+  margin-top: 35px;
+  color: #FFF;
+  font-family: Gotham Pro;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.main-header__left-details {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #222;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__left-details::after {
+  content: url('../../images/next.png');
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.main-header__center {
+  position: relative;
+}
+
+.main-header__center-picture {
+  position: absolute;
+  z-index: 0;
+}
+
+.main-header__right {
+  padding-top: 147px;
+  position: relative;
+}
+
+.main-header__right-prev {
+  position: absolute;
+  content: url('../../images/prev_2.png');
+  right: 80px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-header__right-next {
+  position: absolute;
+  display: block;
+  content: url('../../images/next_2.png');
+  background-color: rgba(255, 255, 255, 0.1);
+  right: 0;
+  top: 0;
+}
+
+.main-header__right-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Gotham Pro;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header__steps {
+  margin-top: 39px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header__step {
+  width: 460px;
+}
+
+.header__step-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 9px;
+  padding: 32px 20px 32px 16px;
+  background: #FFF;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(0, 0, 0, 0.04),
+    0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+.header__step-number {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgba(34, 34, 34, 0.20);
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.container-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-information_title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.container-information_text {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #222;
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.container-information_number {
+  color: #222;
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.66;
+  text-decoration: none;
+}
+
+.container-information_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  margin-top: 8px;
+  border-radius: 4px;
+  background-color: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.44;
+}
+
+.button__green-border {
+  border: 2px solid #3CA255;
+  color: #3CA255;
+}
+
+.button__blue-border {
+  border: 2px solid #1C69D4;
+  color: #1C69D4;
+}
+
+.container-information_button-text {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.44;
+}
+
+.container-information_button-text::before {
+  content: url('../../images/whatsup_green.png');
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.main-products {
+  display: flex;
+  gap: 30px;
+}
+
+.main-products__first {
+  position: relative;
+}
+
+.main-products__first-text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.main-products__details {
+  position: absolute;
+  top: 290px;
+  left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-underline-position: under;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 3px;
+}
+
+.main-products__second {
+  position: relative;
+}
+
+.main-products__second-text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.main-products__second-description {
+  position: absolute;
+  top: 125px;
+  left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.main-products__second-sales {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding: 15px 15px 11px 15px;
+  background-color: #F40;
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: 'Gotham Pro', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 1620px;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
